@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+   
+display: grid;
+background-color:#F5F5F5;
+grid-template-columns: 
+"heaader" 
+"main" 
+"footer";
+
+grid-template-rows:  100px 1fr 100px;
+}
+
+header {
+    /* grid-area:  header; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+/* background-color: aqua; */
+background-color: #F5F5F5;
+}
+
+.Marvel {
+    margin-left: 35px;
+    /* background-color: darkgreen; */
+    width: 268px;
+    height: 59.9px;
+    left: 0px;
+    top: 0px;
+}
+
+.menu {
+    /* background-color: darkgreen; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.menuImage{
+    /* background-color: darkgreen; */
+    margin-right: 44.25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+
+
+}
+main {
+    /* grid-area:  main; */
+    display: flex;
+
+    flex-direction:row ;
+    /* align-items: center; */
+    justify-content: flex-start;
+    background-color:#fff ;
+    /* grid-template-columns: 
+    "texto imagem texto2"; */
+}
+
+.marvel {
+    width: 550px;
+    margin-left: 150px;
+    margin-top: 90px;
+    
+}
+.MarvelCharacter {
+    font-family: Poppins;
+font-size: 16px;
+
+
+}
+
+.IRONMAN {
+    font-family: Gill Sans MT;
+font-size: 80px;
+}
+.tony {
+    position: absolute; 
+    right: 500px;
+}
+.iron-lateral {
+    position: absolute;
+    right: 0;
+}
+
+.homem-ferro {
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+.texto {
+    width: 430px;
+
+}
+
+.botaopreto {
+    background-color: #383838;
+    height: 57px;
+width: 362px;
+color: #fff;   
+}
+
+.redessociais {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+    align-items: center;
+      left: 0;
+    bottom: 0;
+    
+
+}
+
+
+
+.bolinhas {
+        display: flex;
+}
+.fa-instagram {
+
+    background-color: chartreuse;
+    
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: #F5F5F5;
+  font-size: 23px;
+}
+
+.footer {
+    margin-right: 270px;
+
+}
